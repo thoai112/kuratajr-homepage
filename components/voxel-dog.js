@@ -12,7 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = (process.env.NODE_ENV === 'production' ? 'https://xuanthoai.id.vn' : '') + '/space.glb'
+  const urlDogGLB = (process.env.NODE_ENV === 'production' ? 'https://kuratajr-homepage.vercel.app' : '') + '/space.glb'
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
     const { current: container } = refContainer
