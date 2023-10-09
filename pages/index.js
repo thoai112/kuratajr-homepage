@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/takuya.jpg"
+              src="/images/avatar.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100"
@@ -193,7 +193,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/kuratajr" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -207,7 +207,7 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
+            href="https://www.youtube.com"
             title="Dev as Life"
             thumbnail={thumbYouTube}
           >
@@ -233,7 +233,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="https://xuanthoai.id.vn/"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
