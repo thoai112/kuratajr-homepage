@@ -122,7 +122,7 @@ const Home = () => (
           Born in Phu Yen, Viet Nam.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
+          <BioYear>2019</BioYear>
           Completed the Master&apos;s Program in the Graduate School of
           Posts and Telecommunications Institute of Technology
           (PTIT)
