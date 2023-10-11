@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoFacebook,IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -45,7 +45,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Kuratajr
           </Heading>
-          <p>Digital Craftsman ( devops / Developer / Designer )</p>
+          <p>Digital Craftsman ( Devops / Developer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -98,7 +98,7 @@ const Home = () => (
           >
             Dev as Life
           </Link>
-          &quot; has more than 100k subscribers.
+          &quot; has more than 1k subscribers.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -171,24 +171,24 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://www.facebook.com/thoai.ngoxuan" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoFacebook />}
               >
                 @inkdrop_app (English)
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://twitter.com/ngothoai3" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @kuratajr (日本語)
+                @kuratajr
               </Button>
             </Link>
           </ListItem>
