@@ -147,7 +147,7 @@ const Home = () => (
             Drawing
           </Link>
           , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
+          <Link href="https://500px.com/" target="_blank">
             Photography
           </Link>
           , Leica, Machine Learning
@@ -166,7 +166,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @thoai112
               </Button>
             </Link>
           </ListItem>
@@ -177,7 +177,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoFacebook />}
               >
-                @inkdrop_app (English)
+                @Kuratajr
               </Button>
             </Link>
           </ListItem>
@@ -205,22 +205,6 @@ const Home = () => (
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;150k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
 
         <Heading as="h3" variant="section-title">
           Newsletter
