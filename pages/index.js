@@ -43,7 +43,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Ngô Xuân Thoại ( Kuratajr )
+            Xuân Thoại (Kuratajr)
           </Heading>
           <p>Digital Craftsman ( Devops / Developer )</p>
         </Box>
