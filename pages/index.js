@@ -42,7 +42,7 @@ const Home = () => (
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title" fontSize={35}>
+          <Heading as="h2" variant="page-title" fontSize={32}>
             Xuan Thoai( Kuratajr )
           </Heading>
           <p>Digital Craftsman ( Devops / Developer )</p>
@@ -119,11 +119,11 @@ const Home = () => (
           (PTIT)
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
+          <BioYear>2022</BioYear>
           Worked at FPT (System Engineer)
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
+          <BioYear>2023 to present</BioYear>
           Working as a freelancer
         </BioSection>
       </Section>
@@ -142,13 +142,13 @@ const Home = () => (
           Frameworks
         </Heading>
         <Paragraph>
-        <ul>
-					<li>AWS Cloud Development Kit (AWS CDK) - Infrastructure as code</li>
-					<li>CDK8S - Generate Kubernetes manifests as code</li>
-					<li>Apache Airflow - Fundamental and DAG Authoring</li>
-					<li>Boto3, psycopg2, clickhouse-driver, pandas, airflow, slackbot, redis, kubernetes, pyinotify,
-						lxml, kafka, flask, smtplib, threading, requests, etc.</li>
-				</ul>
+          <ul>
+            <li>AWS Cloud Development Kit (AWS CDK) - Infrastructure as code</li>
+            <li>CDK8S - Generate Kubernetes manifests as code</li>
+            <li>Apache Airflow - Fundamental and DAG Authoring</li>
+            <li>Boto3, psycopg2, clickhouse-driver, pandas, airflow, slackbot, redis, kubernetes, pyinotify,
+              lxml, kafka, flask, smtplib, threading, requests, etc.</li>
+          </ul>
         </Paragraph>
       </Section>
 
@@ -157,14 +157,14 @@ const Home = () => (
           Tools
         </Heading>
         <Paragraph>
-        <ul>
-					<li>Kubernetes, Karpenter, Keda, Kyverno, Vcluster, Docker, Docker Compose, Vagrant, KVM,
-						Virtualbox, Vault Postgresql, Redis, Cassandra, pgAdmin, pgbarman, MongoDB</li>
-					<li>Argo-CD, Gitlab, Github, Gerrit, Jenkins, Ansible, Portainer, HAProxy, Nginx, Fast Reserve Proxy
-						(FRP), GoAccess</li>
-					<li>OpenSearch/ElasticSearch, Kibana, Fluentd, Datadog, Grafana, Monitoror, SQLPad
-						Zookeper, Kafka, SorlCloud, SystemD Jira</li>
-				</ul>
+          <ul>
+            <li>Kubernetes, Karpenter, Keda, Kyverno, Vcluster, Docker, Docker Compose, Vagrant, KVM,
+              Virtualbox, Vault Postgresql, Redis, Cassandra, pgAdmin, pgbarman, MongoDB</li>
+            <li>Argo-CD, Gitlab, Github, Gerrit, Jenkins, Ansible, Portainer, HAProxy, Nginx, Fast Reserve Proxy
+              (FRP), GoAccess</li>
+            <li>OpenSearch/ElasticSearch, Kibana, Fluentd, Datadog, Grafana, Monitoror, SQLPad
+              Zookeper, Kafka, SorlCloud, SystemD Jira</li>
+          </ul>
         </Paragraph>
       </Section>
 
@@ -253,7 +253,7 @@ const Home = () => (
         </Heading>
         <p>
           Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
+          projects, tutorials
         </p>
 
         <Box align="center" my={4}>
