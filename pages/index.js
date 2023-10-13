@@ -42,7 +42,7 @@ const Home = () => (
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title" fontSize={32}>
+          <Heading as="h2" variant="page-title" fontSize={31}>
             Xuan Thoai (Kuratajr)
           </Heading>
           <p>Digital Craftsman ( Devops / Developer )</p>
