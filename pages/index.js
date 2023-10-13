@@ -80,8 +80,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
           <p>Greetings,</p>
-          <p>My name is Xuan Thoai (Kuratajr), and I am both an AWS Community Builder and a passionate DevOps Engineer with a strong
-            focus on serverless architecture, Kubernetes, and CDK Typescript. Additionally, I possess expertise in
+          <p>My name is Xuan Thoai (Kuratajr), and I am a passionate DevOps Engineer with a strong focus on 
+            serverless architecture, Kubernetes, and CDK Typescript. Additionally, I possess expertise in
             automation using Python and Bash shell.</p>
           <p>With a deep understanding of developing and operating applications on AWS Cloud Services and
             containerization, I bring a wealth of experience in automation, CI/CD pipelines (Gitlab-CI, ArgoCD,
