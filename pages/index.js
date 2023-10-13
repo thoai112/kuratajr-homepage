@@ -17,7 +17,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 // import { GridItem } from '../components/grid-item'
-import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoLinkedin, IoLogoFacebook, IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 // import thumbYouTube from '../public/images/links/youtube.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import Image from 'next/image'
@@ -42,8 +42,8 @@ const Home = () => (
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title" fontSize={30}>
-            Xuân Thoại( Kuratajr )
+          <Heading as="h2" variant="page-title" fontSize={35}>
+            Xuan Thoai( Kuratajr )
           </Heading>
           <p>Digital Craftsman ( Devops / Developer )</p>
         </Box>
@@ -79,26 +79,17 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Kuratajr is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 1k subscribers.
+          <p>Greetings,</p>
+          <p>My name is Xuan Thoai (Kuratajr), and I am both an AWS Community Builder and a passionate DevOps Engineer with a strong
+            focus on serverless architecture, Kubernetes, and CDK Typescript. Additionally, I possess expertise in
+            automation using Python and Bash shell.</p>
+          <p>With a deep understanding of developing and operating applications on AWS Cloud Services and
+            containerization, I bring a wealth of experience in automation, CI/CD pipelines (Gitlab-CI, ArgoCD,
+            Jenkins, Azure DevOps), monitoring, and security implementation. I excel in creating infrastructure as
+            code using Cloud Development Toolkit (CDK) and CDK8S for Kubernetes manifests as code.</p>
+          <p>Let’s approach our work with simplicity, intelligence, and a determination to drive real change and
+            innovation.</p>{' '}
+          
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -139,6 +130,46 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
+          Programming languages
+        </Heading>
+        <Paragraph>
+          Python, Bash Shell, Typescript, Java
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Frameworks
+        </Heading>
+        <Paragraph>
+        <ul>
+					<li>AWS Cloud Development Kit (AWS CDK) - Infrastructure as code</li>
+					<li>CDK8S - Generate Kubernetes manifests as code</li>
+					<li>Apache Airflow - Fundamental and DAG Authoring</li>
+					<li>Boto3, psycopg2, clickhouse-driver, pandas, airflow, slackbot, redis, kubernetes, pyinotify,
+						lxml, kafka, flask, smtplib, threading, requests, etc.</li>
+				</ul>
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.4}>
+        <Heading as="h3" variant="section-title">
+          Tools
+        </Heading>
+        <Paragraph>
+        <ul>
+					<li>Kubernetes, Karpenter, Keda, Kyverno, Vcluster, Docker, Docker Compose, Vagrant, KVM,
+						Virtualbox, Vault Postgresql, Redis, Cassandra, pgAdmin, pgbarman, MongoDB</li>
+					<li>Argo-CD, Gitlab, Github, Gerrit, Jenkins, Ansible, Portainer, HAProxy, Nginx, Fast Reserve Proxy
+						(FRP), GoAccess</li>
+					<li>OpenSearch/ElasticSearch, Kibana, Fluentd, Datadog, Grafana, Monitoror, SQLPad
+						Zookeper, Kafka, SorlCloud, SystemD Jira</li>
+				</ul>
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
@@ -167,6 +198,17 @@ const Home = () => (
                 leftIcon={<IoLogoGithub />}
               >
                 @thoai112
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/xuanthoaingo/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                @XuanThoai.Ngo
               </Button>
             </Link>
           </ListItem>
