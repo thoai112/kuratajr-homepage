@@ -27,7 +27,7 @@ const Works = () => (
         <Section>
           <WorkGridItem 
             id="apacheairflow" 
-            title="apacheairflow" 
+            title="Apache Airflow" 
             thumbnail={thumbApacheAirflow}
           >
             Building Business intelligence datapipeline using Apache Airflow
