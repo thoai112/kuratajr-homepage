@@ -22,8 +22,8 @@ const Main = ({ children, router }) => {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Kuratajr" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
+        <meta name="twitter:site" content="@kuratajr" />
+        <meta name="twitter:creator" content="@kuratajr" />
         <meta name="twitter:image" content="https://xuanthoai.id.vn/card.png" />
         <meta property="og:site_name" content="Kuratajr" />
         <meta name="og:title" content="Kuratajr" />
