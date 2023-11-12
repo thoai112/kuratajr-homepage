@@ -114,7 +114,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
+          Completed the Program in the Graduate School of
           Posts and Telecommunications Institute of Technology
           (PTIT)
         </BioSection>
