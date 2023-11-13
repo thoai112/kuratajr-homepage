@@ -34,11 +34,8 @@ import {
           <ListItem>
             <Meta>Stack</Meta>
             <span>NodeJS, Electron, React Native</span>
-          </ListItem>
-          
+          </ListItem>  
         </List>
-  
-
       </Container>
     </Layout>
   )
