@@ -83,7 +83,7 @@ const Navbar = props => {
           {/* <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem> */}
-          <LinkItem href="https://kuratajr.xuanthoai.id.vn/">Uses</LinkItem>
+          <LinkItem href="https://kuratajr.xuanthoait.dev/">Uses</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/thoai112/kuratajr-homepage"
