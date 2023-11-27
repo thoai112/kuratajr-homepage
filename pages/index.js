@@ -120,7 +120,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Worked at FPT (System Engineer)
+          Worked at SaoBacDau Technologies Group (System Engineer)
         </BioSection>
         <BioSection>
           <BioYear>2023 to present</BioYear>
