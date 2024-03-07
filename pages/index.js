@@ -118,10 +118,6 @@ const Home = () => (
           Posts and Telecommunications Institute of Technology
           (PTIT)
         </BioSection>
-        // <BioSection>
-        //   <BioYear>2022</BioYear>
-        //   Worked at SaoBacDau Technologies Group (System Engineer)
-        // </BioSection>
         <BioSection>
           <BioYear>2023 to present</BioYear>
           Working as a freelancer
