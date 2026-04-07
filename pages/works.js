@@ -4,6 +4,11 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbApacheAirflow from '../public/images/works/apacheairflow_eyecatch.png'
+import thumbXTPro from '../public/images/works/xtpro_eyecatch.png'
+import thumbTelegramRelay from '../public/images/works/telegram_relay_eyecatch.png'
+import thumbNginxArgoCD from '../public/images/works/nginx_argocd_eyecatch.png'
+import thumbN8nK8s from '../public/images/works/n8n_k8s_eyecatch.png'
+import thumbArgoGrafanaHA from '../public/images/works/argo_grafana_ha_eyecatch.png'
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
@@ -31,6 +36,22 @@ const Works = () => (
             thumbnail={thumbApacheAirflow}
           >
             Building Business intelligence datapipeline using Apache Airflow
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="xtpro" title="XTPro" thumbnail={thumbXTPro}>
+            Free tunneling tool to expose local services to the public internet
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="telegram-relay"
+            title="Telegram Relay"
+            thumbnail={thumbTelegramRelay}
+          >
+            Relay API for WordPress notifications via Telegram
           </WorkGridItem>
         </Section>
 
@@ -70,6 +91,23 @@ const Works = () => (
         </Heading>
       </Section>
 
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="nginx-argocd"
+            title="Nginx ArgoCD"
+            thumbnail={thumbNginxArgoCD}
+          >
+            GitOps configuration for Nginx and ArgoCD
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="n8n-k8s" title="n8n-k8s" thumbnail={thumbN8nK8s}>
+            Workflow automation deployment on Kubernetes
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
       {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
@@ -100,6 +138,18 @@ const Works = () => (
           Old works
         </Heading>
       </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="argo-grafana-ha"
+            title="Argo Grafana HA"
+            thumbnail={thumbArgoGrafanaHA}
+          >
+            High Availability setup for ArgoCD and Grafana
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
 
       {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
