@@ -2,6 +2,9 @@
     "name": "Kuratajr-homepage",
     "version": "1.0.0",
     "description": "Kuratajr's website",
+    "engines": {
+      "node": "24.x"
+    },
     "scripts": {
       "dev": "next dev -H 0.0.0.0",
       "build": "next build",
