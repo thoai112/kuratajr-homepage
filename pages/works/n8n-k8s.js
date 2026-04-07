@@ -3,7 +3,8 @@ import {
   Badge,
   Link,
   List,
-  ListItem
+  ListItem,
+  Heading
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
@@ -17,22 +18,37 @@ const Work = () => (
         n8n-k8s <Badge>2023</Badge>
       </Title>
       <P>
-        Deployment and automation of n8n workflows on a Kubernetes cluster, enabling scalable and reliable business automation.
+        n8n-k8s is a production-grade deployment architecture for the n8n workflow automation platform on Kubernetes. It transforms n8n from a single-server tool into a highly scalable, distributed enterprise system.
       </P>
+      <P>
+        Designed for reliability, this setup allows for horizontal scaling of worker nodes, enabling the processing of thousands of complex workflows simultaneously while ensuring high availability through Kubernetes native features.
+      </P>
+
+      <Heading as="h4" fontSize={16} my={3}>
+        <Badge colorScheme="orange">Key Features</Badge>
+      </Heading>
+      <List ml={4} my={2}>
+        <ListItem>• Scalable worker architecture for heavy workflow processing</ListItem>
+        <ListItem>• High availability with distributed execution nodes</ListItem>
+        <ListItem>• Automated backups and persistent storage management</ListItem>
+        <ListItem>• Resource isolation and limits specifically tuned for n8n workers</ListItem>
+        <ListItem>• Comprehensive monitoring of workflow queues and healthy checks</ListItem>
+      </List>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/thoai112/n8n-k8s">
+          <Link href="https://github.com/thoai112/n8n-k8s" target="_blank">
             https://github.com/thoai112/n8n-k8s <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Kubernetes</span>
+          <span>Kubernetes (K8s)</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>n8n, Docker, Kubernetes, DevOps</span>
+          <span>n8n, Docker, Kubernetes, PostgreSQL, Redis</span>
         </ListItem>
       </List>
     </Container>

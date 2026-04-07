@@ -3,7 +3,8 @@ import {
   Badge,
   Link,
   List,
-  ListItem
+  ListItem,
+  Heading
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
@@ -17,22 +18,37 @@ const Work = () => (
         Telegram Relay <Badge>2024</Badge>
       </Title>
       <P>
-        A relay API service built for WordPress to handle notifications and communications seamlessly via Telegram.
+        Telegram Relay is a powerful bridging service designed to connect WordPress sites directly with the Telegram ecosystem. It enables real-time synchronization and notification relaying from your web platform to individual users or groups.
       </P>
+      <P>
+        Whether it's for e-commerce order alerts, security notifications, or content updates, this project provides a robust API and webhook system to ensure your messages reach your Telegram audience instantly and reliably.
+      </P>
+
+      <Heading as="h4" fontSize={16} my={3}>
+        <Badge colorScheme="green">Key Features</Badge>
+      </Heading>
+      <List ml={4} my={2}>
+        <ListItem>• Real-time notification relaying from WordPress hooks</ListItem>
+        <ListItem>• Secure API authentication for external integrations</ListItem>
+        <ListItem>• Support for rich formatting, bot commands, and media uploads</ListItem>
+        <ListItem>• Easy-to-configure webhooks for custom event triggers</ListItem>
+        <ListItem>• Message queueing system to handle high traffic volumes</ListItem>
+      </List>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/thoai112/telegram-relay">
+          <Link href="https://github.com/thoai112/telegram-relay" target="_blank">
             https://github.com/thoai112/telegram-relay <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web, PHP, WordPress</span>
+          <span>Web / Node.js Engine</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Node.JS, Telegram API, WordPress Hooks</span>
+          <span>Node.js, Telegram Bot API, Express, WordPress API</span>
         </ListItem>
       </List>
     </Container>

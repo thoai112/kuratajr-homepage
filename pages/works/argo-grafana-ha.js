@@ -3,7 +3,8 @@ import {
   Badge,
   Link,
   List,
-  ListItem
+  ListItem,
+  Heading
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
@@ -17,22 +18,37 @@ const Work = () => (
         Argo Grafana HA <Badge>2022</Badge>
       </Title>
       <P>
-        Implementation of a High Availability architecture for both ArgoCD and Grafana to ensure continuous monitoring and delivery.
+        Argo Grafana HA is a reference architecture for deploying Top-tier High Availability (HA) monitoring stacks using GitOps principles. It ensures that your observability platform is as resilient as the infrastructure it monitors.
       </P>
+      <P>
+        By utilizing shared state databases and persistent storage backends, this setup allows for zero-downtime upgrades and multi-replica Grafana deployments, all synchronized automatically via ArgoCD from a central Git repository.
+      </P>
+
+      <Heading as="h4" fontSize={16} my={3}>
+        <Badge colorScheme="red">Key Features</Badge>
+      </Heading>
+      <List ml={4} my={2}>
+        <ListItem>• Multi-replica Grafana deployment for High Availability</ListItem>
+        <ListItem>• Shared database backend (PostgreSQL/MySQL) for session persistence</ListItem>
+        <ListItem>• Dashboard and datasource synchronization via GitOps (ArgoCD)</ListItem>
+        <ListItem>• Automated horizontal pod autoscaling based on traffic</ListItem>
+        <ListItem>• Disaster recovery readiness with version-controlled state</ListItem>
+      </List>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/thoai112/argo-grafana-ha">
+          <Link href="https://github.com/thoai112/argo-grafana-ha" target="_blank">
             https://github.com/thoai112/argo-grafana-ha <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Cloud Infrastructure</span>
+          <span>Kubernetes / Cloud Native</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>ArgoCD, Grafana, High Availability, AWS/GCP</span>
+          <span>ArgoCD, Grafana, PostgreSQL, PersistentVolumes</span>
         </ListItem>
       </List>
     </Container>
