@@ -6,7 +6,7 @@ import {
     ListItem
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, Meta } from '../../components/work'
+  import { Title, Meta, WorkImage } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
   
@@ -35,6 +35,9 @@ import {
             <span>NodeJS, Electron, React Native</span>
           </ListItem>  
         </List>
+        <WorkImage src="/images/works/apacheairflow_01.png" alt="Apache Airflow DAG" />
+        <WorkImage src="/images/works/apacheairflow_02.png" alt="Apache Airflow Gantt Chart" />
+        <WorkImage src="/images/works/apacheairflow_03.png" alt="Apache Airflow Dashboard" />
       </Container>
     </Layout>
   )

@@ -7,7 +7,7 @@ import {
   Heading
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -51,6 +51,8 @@ const Work = () => (
           <span>Node.js, Telegram Bot API, Express, WordPress API</span>
         </ListItem>
       </List>
+      <WorkImage src="/images/works/telegram_relay_01.png" alt="Telegram Relay WP Settings" />
+      <WorkImage src="/images/works/telegram_relay_02.png" alt="Telegram Relay Bot" />
     </Container>
   </Layout>
 )

@@ -7,7 +7,7 @@ import {
   Heading
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -51,6 +51,9 @@ const Work = () => (
           <span>Helm, ArgoCD, Nginx Ingress, YAML, Kubernetes</span>
         </ListItem>
       </List>
+      <WorkImage src="/images/works/nginx_argocd_01.png" alt="Nginx ArgoCD Dashboard" />
+      <WorkImage src="/images/works/nginx_argocd_02.png" alt="Nginx ArgoCD Architecture" />
+      <WorkImage src="/images/works/nginx_argocd_03.png" alt="Nginx ArgoCD Terminal" />
     </Container>
   </Layout>
 )

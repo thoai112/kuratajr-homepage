@@ -7,7 +7,7 @@ import {
   Heading
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -51,6 +51,9 @@ const Work = () => (
           <span>n8n, Docker, Kubernetes, PostgreSQL, Redis</span>
         </ListItem>
       </List>
+      <WorkImage src="/images/works/n8n_k8s_01.png" alt="n8n-k8s Canvas" />
+      <WorkImage src="/images/works/n8n_k8s_02.png" alt="n8n-k8s Workers" />
+      <WorkImage src="/images/works/n8n_k8s_03.png" alt="n8n-k8s Flow" />
     </Container>
   </Layout>
 )
