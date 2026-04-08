@@ -13,6 +13,7 @@ import thumbHackintoshLegion from '../public/images/works/hackintosh_legion_eyec
 import thumbStreamLogs from '../public/images/works/stream_logs_eyecatch.png'
 import thumbVnxTerminal from '../public/images/works/vnx_terminal_eyecatch.png'
 import thumbMeta from '../public/images/works/meta_eyecatch.png'
+import thumbNezha from '../public/images/works/nezha_eyecatch.png'
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
@@ -96,6 +97,16 @@ const Works = () => (
             thumbnail={thumbMeta}
           >
             High-performance orchestration and monitoring system for VPS clusters
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="nezha"
+            title="Nezha Monitoring"
+            thumbnail={thumbNezha}
+          >
+            Enhanced server and website monitoring dashboard with O&M features
           </WorkGridItem>
         </Section>
 
