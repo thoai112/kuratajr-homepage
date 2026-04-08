@@ -4,8 +4,7 @@ import {
   Link,
   List,
   ListItem,
-  Heading,
-  Center
+  Heading
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'

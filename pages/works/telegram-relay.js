@@ -21,7 +21,7 @@ const Work = () => (
         Telegram Relay is a powerful bridging service designed to connect WordPress sites directly with the Telegram ecosystem. It enables real-time synchronization and notification relaying from your web platform to individual users or groups.
       </P>
       <P>
-        Whether it's for e-commerce order alerts, security notifications, or content updates, this project provides a robust API and webhook system to ensure your messages reach your Telegram audience instantly and reliably.
+        Whether it&apos;s for e-commerce order alerts, security notifications, or content updates, this project provides a robust API and webhook system to ensure your messages reach your Telegram audience instantly and reliably.
       </P>
 
       <Heading as="h4" fontSize={16} my={3}>
