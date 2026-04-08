@@ -12,6 +12,7 @@ import thumbArgoGrafanaHA from '../public/images/works/argo_grafana_ha_eyecatch.
 import thumbHackintoshLegion from '../public/images/works/hackintosh_legion_eyecatch.png'
 import thumbStreamLogs from '../public/images/works/stream_logs_eyecatch.png'
 import thumbVnxTerminal from '../public/images/works/vnx_terminal_eyecatch.png'
+import thumbMeta from '../public/images/works/meta_eyecatch.png'
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
@@ -85,6 +86,16 @@ const Works = () => (
             thumbnail={thumbVnxTerminal}
           >
             A modern React and Vite based terminal emulator on the web
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="meta"
+            title="VPS METAlink"
+            thumbnail={thumbMeta}
+          >
+            High-performance orchestration and monitoring system for VPS clusters
           </WorkGridItem>
         </Section>
 
