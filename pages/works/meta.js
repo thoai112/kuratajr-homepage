@@ -21,19 +21,19 @@ const Work = () => (
         VPS METAlink is a high-performance orchestration and monitoring system for VPS clusters, built on Cloudflare Workers and KV Storage. It provides a centralized, premium interface to manage node configurations, shell templates, and real-time health monitoring.
       </P>
       <P>
-        The system features a Glassmorphism UI with a focus on visual feedback and resource optimization. It allows administrators to perform management actions like starting, shutting down, or rebooting nodes directly from the dashboard, while maintaining a secure, token-based architecture.
+        The system features a sophisticated dashboard that tracks total nodes, active groups, and KV entries at a glance. It offers direct management tools for IP addresses, Cloud-init metadata, and global security settings, all wrapped in a modern, dark-themed Glassmorphism UI.
       </P>
 
       <Heading as="h4" fontSize={16} my={3}>
         <Badge colorScheme="cyan">Key Features</Badge>
       </Heading>
       <List ml={4} my={2}>
-        <ListItem>• Intelligent monitoring with live status dots and auto-refresh</ListItem>
-        <ListItem>• Hierarchical configuration management (Global, Group, Node, KV)</ListItem>
-        <ListItem>• Direct proxy actions: Start, Shutdown, Destroy, and Reboot</ListItem>
-        <ListItem>• Premium Admin Dashboard with Glassmorphism UI and Dark Mode</ListItem>
-        <ListItem>• Mobile-responsive design optimized for all devices</ListItem>
-        <ListItem>• Secure token-based access control and multi-layer cache-busting</ListItem>
+        <ListItem>• **Inventory & Registry:** Centralized node management and tracking</ListItem>
+        <ListItem>• **Group Mappings:** Hierarchical organization of VPS instances</ListItem>
+        <ListItem>• **Shell Templates:** Reusable initialization and setup scripts</ListItem>
+        <ListItem>• **KV Configs:** Real-time JSON editing via Cloudflare KV</ListItem>
+        <ListItem>• **IP & Cloud-init Management:** Automated provisioning and tracking</ListItem>
+        <ListItem>• **Action Control:** Proxy-based Start, Shutdown, and Destroy functions</ListItem>
       </List>
 
       <List ml={4} my={4}>
