@@ -17,9 +17,23 @@ const Work = () => (
         VNX Terminal <Badge>2023</Badge>
       </Title>
       <P>
-        A modern web-based terminal interface built with React, Vite, and TypeScript.
-        VNX Terminal provides a sleek and interactive command-line experience directly within the browser.
+        VNX Terminal is a powerful, lightweight, and modern web-based terminal emulator designed for developers who need a quick and accessible command-line interface on the web. It provides a familiar interactive terminal environment with high performance and low latency.
       </P>
+      <P>
+        Built using the latest web technologies including React and Vite, it is optimized for speed and efficiency. The project is designed to be easily deployable via Cloudflare Workers, making it a robust serverless utility for various web-based automation and remote management tasks.
+      </P>
+
+      <Heading as="h4" fontSize={16} my={3}>
+        <Badge colorScheme="cyan">Key Features</Badge>
+      </Heading>
+      <List ml={4} my={2}>
+        <ListItem>• Responsive and professional terminal UI built with React</ListItem>
+        <ListItem>• Lightning-fast development and build process powered by Vite</ListItem>
+        <ListItem>• Fully written in TypeScript for enhanced reliability and maintenance</ListItem>
+        <ListItem>• Serverless deployment capability using Cloudflare Workers</ListItem>
+        <ListItem>• Customizable command sets and interactive feedback</ListItem>
+        <ListItem>• Dark mode optimized for long-duration technical tasks</ListItem>
+      </List>
 
       <List ml={4} my={4}>
         <ListItem>
@@ -36,11 +50,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Web Browser</span>
+          <span>Web Browser / Cloudflare Workers</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>TypeScript, React, Vite</span>
+          <span>TypeScript, React, Vite, Cloudflare Workers</span>
         </ListItem>
       </List>
 
