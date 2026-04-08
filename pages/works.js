@@ -9,6 +9,9 @@ import thumbTelegramRelay from '../public/images/works/telegram_relay_eyecatch.p
 import thumbNginxArgoCD from '../public/images/works/nginx_argocd_eyecatch.png'
 import thumbN8nK8s from '../public/images/works/n8n_k8s_eyecatch.png'
 import thumbArgoGrafanaHA from '../public/images/works/argo_grafana_ha_eyecatch.png'
+import thumbHackintoshLegion from '../public/images/works/hackintosh_legion_eyecatch.png'
+import thumbStreamLogs from '../public/images/works/stream_logs_eyecatch.png'
+import thumbVnxTerminal from '../public/images/works/vnx_terminal_eyecatch.png'
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
@@ -52,6 +55,36 @@ const Works = () => (
             thumbnail={thumbTelegramRelay}
           >
             Relay API for WordPress notifications via Telegram
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="hackintosh-legion"
+            title="Hackintosh Legion"
+            thumbnail={thumbHackintoshLegion}
+          >
+            OpenCore EFI for Lenovo Legion 5 15ARH05H (AMD Ryzen 7 4800H)
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="stream-logs"
+            title="Stream Logs"
+            thumbnail={thumbStreamLogs}
+          >
+            Real-time log streaming and monitoring infrastructure
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="vnx-terminal"
+            title="VNX Terminal"
+            thumbnail={thumbVnxTerminal}
+          >
+            A modern React and Vite based terminal emulator on the web
           </WorkGridItem>
         </Section>
 
