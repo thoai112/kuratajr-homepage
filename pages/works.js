@@ -14,6 +14,8 @@ import thumbStreamLogs from '../public/images/works/stream_logs_eyecatch.png'
 import thumbVnxTerminal from '../public/images/works/vnx_terminal_eyecatch.png'
 import thumbMeta from '../public/images/works/meta_eyecatch.png'
 import thumbNezha from '../public/images/works/nezha_eyecatch.png'
+import thumbCoinOfWorld from '../public/images/works/coin_of_world_eyecatch.png'
+
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
@@ -35,6 +37,16 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <WorkGridItem
+            id="coin-of-world"
+            title="Coin Of the World"
+            thumbnail={thumbCoinOfWorld}
+          >
+            Global utility stablecoin based on the average value of 155 fiat currencies
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
           <WorkGridItem 
             id="apacheairflow" 
             title="Apache Airflow" 
