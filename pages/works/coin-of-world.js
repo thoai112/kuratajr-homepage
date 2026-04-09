@@ -18,7 +18,7 @@ const Work = () => (
         Coin Of the World (COW) <Badge>2026</Badge>
       </Title>
       <P>
-        Coin Of the World (COW) is a next-generation stablecoin designed to be a global utility currency. Unlike traditional stablecoins pegged to a single fiat currency, COW's value is derived from the average value of 155 popular fiat currencies in circulation globally.
+        Coin Of the World (COW) is a next-generation stablecoin designed to be a global utility currency. Unlike traditional stablecoins pegged to a single fiat currency, COW&apos;s value is derived from the average value of 155 popular fiat currencies in circulation globally.
       </P>
       <P>
         By utilizing the Principle of Average, COW aims to resist financial manipulation by institutions or governments, providing a neutral, fair, and transparent monetary system that brings financial autonomy to individuals worldwide without borders.
