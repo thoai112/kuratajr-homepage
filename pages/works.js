@@ -15,6 +15,8 @@ import thumbVnxTerminal from '../public/images/works/vnx_terminal_eyecatch.png'
 import thumbMeta from '../public/images/works/meta_eyecatch.png'
 import thumbNezha from '../public/images/works/nezha_eyecatch.png'
 import thumbCoinOfWorld from '../public/images/works/coin_of_world_eyecatch.png'
+import thumbElkStack from '../public/images/works/elk_stack_eyecatch.png'
+
 
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -43,6 +45,12 @@ const Works = () => (
             thumbnail={thumbCoinOfWorld}
           >
             Global utility stablecoin based on the average value of 155 fiat currencies
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="elk-stack" title="ELK Stack" thumbnail={thumbElkStack}>
+            Centralized logging and monitoring system using Elasticsearch, Logstash, and Kibana
           </WorkGridItem>
         </Section>
 
