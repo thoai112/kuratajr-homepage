@@ -4,6 +4,20 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbApacheAirflow from '../public/images/works/apacheairflow_eyecatch.png'
+import thumbXTPro from '../public/images/works/xtpro_eyecatch.png'
+import thumbTelegramRelay from '../public/images/works/telegram_relay_eyecatch.png'
+import thumbNginxArgoCD from '../public/images/works/nginx_argocd_eyecatch.png'
+import thumbN8nK8s from '../public/images/works/n8n_k8s_eyecatch.png'
+import thumbArgoGrafanaHA from '../public/images/works/argo_grafana_ha_eyecatch.png'
+import thumbHackintoshLegion from '../public/images/works/hackintosh_legion_eyecatch.png'
+import thumbStreamLogs from '../public/images/works/stream_logs_eyecatch.png'
+import thumbVnxTerminal from '../public/images/works/vnx_terminal_eyecatch.png'
+import thumbMeta from '../public/images/works/meta_eyecatch.png'
+import thumbNezha from '../public/images/works/nezha_eyecatch.png'
+import thumbCoinOfWorld from '../public/images/works/coin_of_world_eyecatch.png'
+import thumbElkStack from '../public/images/works/elk_stack_eyecatch.png'
+
+
 
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
@@ -25,12 +39,94 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <WorkGridItem
+            id="coin-of-world"
+            title="Coin Of the World"
+            thumbnail={thumbCoinOfWorld}
+          >
+            Global utility stablecoin based on the average value of 155 fiat currencies
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="elk-stack" title="ELK Stack" thumbnail={thumbElkStack}>
+            Centralized logging and monitoring system using Elasticsearch, Logstash, and Kibana
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
           <WorkGridItem 
             id="apacheairflow" 
             title="Apache Airflow" 
             thumbnail={thumbApacheAirflow}
           >
             Building Business intelligence datapipeline using Apache Airflow
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="xtpro" title="XTPro" thumbnail={thumbXTPro}>
+            Free tunneling tool to expose local services to the public internet
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="telegram-relay"
+            title="Telegram Relay"
+            thumbnail={thumbTelegramRelay}
+          >
+            Relay API for WordPress notifications via Telegram
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="hackintosh-legion"
+            title="Hackintosh Legion"
+            thumbnail={thumbHackintoshLegion}
+          >
+            OpenCore EFI for Lenovo Legion 5 15ARH05H (AMD Ryzen 7 4800H)
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="stream-logs"
+            title="Stream Logs"
+            thumbnail={thumbStreamLogs}
+          >
+            Real-time log streaming and monitoring infrastructure
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="vnx-terminal"
+            title="VNX Terminal"
+            thumbnail={thumbVnxTerminal}
+          >
+            A modern React and Vite based terminal emulator on the web
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="meta"
+            title="VPS METAlink"
+            thumbnail={thumbMeta}
+          >
+            High-performance orchestration and monitoring system for VPS clusters
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.2}>
+          <WorkGridItem
+            id="nezha"
+            title="Nezha Monitoring"
+            thumbnail={thumbNezha}
+          >
+            Enhanced server and website monitoring dashboard with O&M features
           </WorkGridItem>
         </Section>
 
@@ -70,6 +166,23 @@ const Works = () => (
         </Heading>
       </Section>
 
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="nginx-argocd"
+            title="Nginx ArgoCD"
+            thumbnail={thumbNginxArgoCD}
+          >
+            GitOps configuration for Nginx and ArgoCD
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="n8n-k8s" title="n8n-k8s" thumbnail={thumbN8nK8s}>
+            Workflow automation deployment on Kubernetes
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
       {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
@@ -100,6 +213,18 @@ const Works = () => (
           Old works
         </Heading>
       </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="argo-grafana-ha"
+            title="Argo Grafana HA"
+            thumbnail={thumbArgoGrafanaHA}
+          >
+            High Availability setup for ArgoCD and Grafana
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
 
       {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
